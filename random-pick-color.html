@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Picker</title>
+    <link rel="stylesheet" href="./style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+    </style>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="./index.html">Home</a>
+        <a href="https://github.com/gilbmporto">About Me</a>
+        <a href="https://github.com/gilbmporto?tab=repositories">Other Projects</a>
+    </nav>
+
+    <h1>Press the button below to get a random color:</h1>
+
+    <div id="colorIdentifier"></div>
+
+    <div class="outsideLoadBar" id="theOutsideLoadBar">
+        <div class="insideLoadBar" id="theInsideLoadBar"><p id="loadingTxt"></p></div>
+    </div>
+
+    <button id="generateRandomColor">Generate New Color</button>
+</body>
+</html>
